@@ -1,0 +1,147 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".CardReaderActivity">
+
+    <com.google.android.material.appbar.MaterialToolbar
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:theme="@style/AppTheme.AppBarOverlay"
+        tools:ignore="MissingConstraints"
+        android:background="@drawable/header480"
+        />
+
+
+    <LinearLayout
+        android:id="@+id/buttons"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="164dp"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/status_tv"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_above="@+id/buttons"
+            android:layout_centerHorizontal="true"
+            android:layout_marginBottom="10dp"
+            android:text="Status"
+            android:textAppearance="?android:attr/textAppearanceSmall"
+            android:typeface="monospace"
+            tools:ignore="MissingConstraints" />
+
+        <TextView
+        android:id="@+id/status_tv1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/buttons"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="10dp"
+        android:text="Status"
+        android:textAppearance="?android:attr/textAppearanceSmall"
+        android:typeface="monospace"
+        tools:ignore="MissingConstraints" />
+
+        <TextView
+            android:id="@+id/status_tv2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_above="@+id/buttons"
+            android:layout_centerHorizontal="true"
+            android:layout_marginBottom="10dp"
+            android:text="Status"
+            android:textAppearance="?android:attr/textAppearanceSmall"
+            android:typeface="monospace"
+            tools:ignore="MissingConstraints" />
+
+        <TextView
+            android:id="@+id/status_tv3"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_above="@+id/buttons"
+            android:layout_centerHorizontal="true"
+            android:layout_marginBottom="10dp"
+            android:text="Status"
+            android:textAppearance="?android:attr/textAppearanceSmall"
+            android:typeface="monospace"
+            tools:ignore="MissingConstraints" />
+        <TextView
+            android:id="@+id/status_tv4"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_above="@+id/buttons"
+            android:layout_centerHorizontal="true"
+            android:layout_marginBottom="10dp"
+            android:text="Status"
+            android:textAppearance="?android:attr/textAppearanceSmall"
+            android:typeface="monospace"
+            tools:ignore="MissingConstraints" />
+        <TextView
+            android:id="@+id/status_tv5"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_above="@+id/buttons"
+            android:layout_centerHorizontal="true"
+            android:layout_marginBottom="10dp"
+            android:text="Status"
+            android:textAppearance="?android:attr/textAppearanceSmall"
+            android:typeface="monospace"
+            tools:ignore="MissingConstraints" />
+        <TextView
+            android:id="@+id/status_tv6"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_above="@+id/buttons"
+            android:layout_centerHorizontal="true"
+            android:layout_marginBottom="10dp"
+            android:text="Status"
+            android:textAppearance="?android:attr/textAppearanceSmall"
+            android:typeface="monospace"
+            tools:ignore="MissingConstraints" />
+
+        <TextView
+            android:id="@+id/status_tv7"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_above="@+id/buttons"
+            android:layout_centerHorizontal="true"
+            android:layout_marginBottom="10dp"
+            android:text="Status"
+            android:textAppearance="?android:attr/textAppearanceSmall"
+            android:typeface="monospace"
+            tools:ignore="MissingConstraints" />
+
+        <TextView
+            android:id="@+id/status_tv8"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_above="@+id/buttons"
+            android:layout_centerHorizontal="true"
+            android:layout_marginBottom="10dp"
+            android:text="Status"
+            android:textAppearance="?android:attr/textAppearanceSmall"
+            android:typeface="monospace"
+            tools:ignore="MissingConstraints" />
+
+        <Button
+            android:id="@+id/open_close"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="20dp"
+            android:onClick="onOpen"
+            android:text="Connect Card" />
+
+        <Button
+            android:id="@+id/view"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="20dp"
+            android:onClick="onClose"
+            android:text="Disconnect Card" />
+    </LinearLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>
